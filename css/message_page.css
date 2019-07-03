@@ -1,0 +1,20 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+textarea {
+  width: 400px;
+  height: 300px;
+  resize: none;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: 2px solid #33333355;
+}
+
+textarea:focus {
+  border-color: #00ffff88;
+}
